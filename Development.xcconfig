@@ -1,0 +1,10 @@
+//
+//  Development.xcconfig
+//  XCConfigStudy
+//
+//  Created by 오킹 on 2024/02/04.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+BASE_URL = http:/$()/dev.com

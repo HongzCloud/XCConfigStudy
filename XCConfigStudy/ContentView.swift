@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    let dict = Bundle.main.infoDictionary
+    
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            Text(dict?["BASE_URL"] as! String)
+   
         }
         .padding()
     }
